@@ -20,6 +20,7 @@ import { openModal, closeModal } from '../store/modalSlice';
 import Button from '../components/Button';
 import MyPage from '../pages/MyPage';
 import CheckBox from '../components/CheckBox';
+import RegisterPage from '../pages/RegisterPage';
 
 // 테스트용 임시 페이지
 const TempPage = () => {
@@ -133,6 +134,7 @@ const router = createBrowserRouter([
       { path: 'pricing', element: <PricingPage /> },
       { path: '/login', element: <LoginPage /> },
       { path: '/mypage', element: <MyPage /> },
+      { path: '/signup', element: <RegisterPage /> },
     ],
   },
   {
