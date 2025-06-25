@@ -39,8 +39,10 @@ const LoginBanner = ({ type }: LoginBannerProps) => {
   const buttonColor = isMainWhite ? ('gray' as const) : ('white' as const);
 
   return (
-    <div className={`w-full flex justify-between items-center gap-2 px-3 py-3 ${containerClass}`}>
-      <span className="font-normal mt-[2px] max-[400px]:text-xs">{messages[type]}</span>
+    <div
+      className={`w-full flex justify-between items-center gap-2 md:px-10 px-4 py-3 ${containerClass}`}
+    >
+      <span className="font-normal mt-[2px] max-[350px]:text-[13px]">{messages[type]}</span>
       <Button onClick={handleLoginClick} variant={buttonVariant} color={buttonColor}>
         로그인
       </Button>
