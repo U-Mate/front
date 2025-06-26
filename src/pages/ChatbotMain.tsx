@@ -11,6 +11,7 @@ import ResearchBanner from '../components/ResearchBanner';
 import Research from '../components/BottomSheet/Research';
 import { useAppSelector } from '../hooks/reduxHooks';
 import { resetHistory } from '../apis/ChatApi';
+import BaseModal from '../components/Modal/BaseModal';
 
 /* 타입 선언 */
 type Message = { type: 'user' | 'bot'; content: string; time?: string };

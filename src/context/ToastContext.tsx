@@ -17,7 +17,7 @@ export const ToastContext = createContext<ToastContextType | null>(null);
 
 export const ToastProvider = ({ children }: { children: ReactNode }) => {
   const baseStyle =
-    'sm:w-[500px] w-[90%] mx-auto mb-2 text-white text-sm sm:text-m rounded-2xl items-center drop-shadow-lg flex justify-center';
+    'sm:w-[500px] min-w-[280px] w-[90%] mx-auto mb-2 text-white text-sm sm:text-m rounded-2xl items-center drop-shadow-lg flex justify-center whitespace-nowrap';
 
   const toastStyles: Record<ToastType, string> = {
     success: `bg-blue-500 ${baseStyle}`,
