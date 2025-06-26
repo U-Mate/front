@@ -24,7 +24,7 @@ const PlanTopBanner = ({
   isPopular = false,
 }: PlanTopBannerProps) => {
   return (
-    <div className="rounded-b-[20px] px-9 pt-9 pb-4 max-[400px]:px-7 max-[400px]:pt-7 max-[400px]:pb-3 md:px-52 bg-rdiagonal text-black shadow-[0_8px_15px_-4px_rgba(0,0,0,0.2)]">
+    <div className="rounded-b-[20px] px-4 pt-9 pb-4 max-[400px]:px-7 max-[400px]:pt-7 max-[400px]:pb-3 lg:px-20 bg-rdiagonal text-black shadow-[0_8px_15px_-4px_rgba(0,0,0,0.2)]">
       {/* 인기 & 별점 */}
       <div className="flex items-center gap-1 mt-1 mb-1">
         {isPopular && (
@@ -63,7 +63,7 @@ const PlanTopBanner = ({
 
         {/* 요금제 슬라이드 카드 영역 */}
         <div className="relative w-screen left-1/2 -translate-x-1/2">
-          <div className="overflow-x-auto scrollbar-hide pl-9 py-6 md:pl-52">
+          <div className="overflow-x-auto scrollbar-hide pl-4 py-6 lg:px-20">
             <div className="inline-flex gap-2 pr-4 md:gap-4">
               {dataInfo && (
                 <div className="bg-[rgba(255,255,255,0.35)] rounded-[8px] py-3 px-4 shadow-lilac min-w-[145px] max-w-[145px] min-h-24 max-h-24 text-s md:text-m md:min-h-32 md:max-h-32 md:min-w-[185px] md:max-w-[185px]">
