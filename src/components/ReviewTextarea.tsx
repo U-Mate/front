@@ -26,7 +26,6 @@ interface ReviewTextareaProps {
 const ReviewTextarea = ({
   maxLength = 100,
   minLength = 10,
-  placeholder = '리뷰를 작성해주세요',
   value = '',
   width,
   onChange,

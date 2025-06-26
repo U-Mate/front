@@ -6,7 +6,7 @@ type ButtonProps = {
   color?: 'pink' | 'gray' | 'violet' | 'black' | 'white';
   rounded?: 'none' | 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '3xl' | 'full';
   size?: 's' | 'sm' | 'm' | 'lg' | 'xl';
-  onClick?: () => void;
+  onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
   children: React.ReactNode;
   className?: string;
   disabled?: boolean;

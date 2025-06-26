@@ -27,11 +27,9 @@ const ReviewCard = ({
   writerName,
   writerAge,
   planName,
-  planPrice,
   content,
   date,
   rating,
-  onDelete,
   onRefresh,
 }: ReviewCardProps) => {
   const [isEditing, setIsEditing] = useState(false);
@@ -49,9 +47,9 @@ const ReviewCard = ({
       showToast(res.message, 'success');
       setIsEditing(false);
       onRefresh?.();
-    } catch (error) {
+    } catch (error: any) {
       if (editedContent.length < 10) showToast('10자 이상 적어주세요.', 'error');
-      else showToast(error.response.data.error, 'error');
+      else showToast(error?.response?.data?.error, 'error');
     }
   };
 
@@ -60,8 +58,8 @@ const ReviewCard = ({
       const res = await deleteReview({ reviewId });
       showToast(res.message, 'success');
       onRefresh?.();
-    } catch (error) {
-      showToast(error.response.data.error, 'error');
+    } catch (error: any) {
+      showToast(error?.response?.data?.error, 'error');
     }
   };
   return (
