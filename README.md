@@ -5,9 +5,9 @@
 
 ---
 
-## 📌 서비스 개요
-
 [<img src="https://img.shields.io/badge/프로젝트 기간-2025.06.09~2025.06.27-fab2ac?style=flat&logo=&logoColor=white" />]()
+
+## 📌 서비스 개요
 
 U\:Mate (유메이트)는 통신사 요금제를 쉽고 빠르게 탐색하고, AI 챗봇과의 대화를 통해 사용자에게 맞춤형 요금제를 추천하는 서비스입니다.
 
