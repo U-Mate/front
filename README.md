@@ -71,8 +71,7 @@ U\:Mate (유메이트)는 통신사 요금제를 쉽고 빠르게 탐색하고, 
 
 | 온보딩 3                              | 온보딩 4                              |
 | ---------------------------------- | ---------------------------------- |
-| <img width="412" height="917" alt="onboarding3" src="https://github.com/user-attachments/assets/a143849d-7aa4-45be-be56-dc08e6e4f3e9" />
- |  <img width="412" height="917" alt="onboarding4" src="https://github.com/user-attachments/assets/58298e12-e8a3-432c-8742-0c801ffa930b" />
+| <img width="412" height="917" alt="onboarding3" src="https://github.com/user-attachments/assets/a143849d-7aa4-45be-be56-dc08e6e4f3e9" /> | <img width="412" height="917" alt="onboarding4" src="https://github.com/user-attachments/assets/58298e12-e8a3-432c-8742-0c801ffa930b" />
 
 ---
 
