@@ -81,5 +81,5 @@ U\:Mate (유메이트)는 통신사 요금제를 쉽고 빠르게 탐색하고, 
 
 * 🌐 [배포 사이트 (Vercel)](https://umate.vercel.app)
 * 🎨 [Figma 디자인 시안](https://www.figma.com/design/yFIc8bQiI2uzH0o7XGkvqZ/-%EC%9C%A0%EB%A0%88%EC%B9%B4-%EC%A2%85%ED%95%A9%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8--5%ED%8C%80--%EC%9C%A0%EB%A9%94%EC%9D%B4%ED%8A%B8?node-id=0-1&t=4V0zRBZu9pckzTbD-1)
-* 📊 [발표 자료 (Canva)](https://www.canva.com/design/DAGrahLxUcQ/Eyw86zhcfPz9vi9mTbTmLA/edit)
+* 📊 [발표 자료 (Canva)]([https://www.canva.com/design/DAGrahLxUcQ/Eyw86zhcfPz9vi9mTbTmLA/edit](https://www.canva.com/design/DAGrahLxUcQ/cf--X16pOXOiQFYus5XOOg/view?utm_content=DAGrahLxUcQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8802e16d35))
 * [백엔드](https://github.com/U-Mate/back)
